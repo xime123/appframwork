@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">appcore</string>
+
+    <string name="HTTP_ERROR">网络错误</string>
+    <string name="PARSE_ERROR">解析错误</string>
+    <string name="CAST_ERROR">类型转换错误</string>
+    <string name="NETWORD_ERROR">连接失败</string>
+    <string name="NO_SUCH_METHOD">不支持的请求方法类型</string>
+    <string name="SSL_ERROR">证书验证失败</string>
+    <string name="TIMEOUT_ERROR">连接超时</string>
+    <string name="UNKNOWNHOST_ERROR">无法解析该域名</string>
+    <string name="UNKNOWN">未知错误</string>
+</resources>

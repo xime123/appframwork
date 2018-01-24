@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_1">#333333</color>
+    <color name="black_2">#666666</color>
+    <color name="black_3">#999999</color>
+    <color name="black_4">#D2D2D2</color>
+    <color name="black_5">#BFBFBF</color>
+    <color name="black_6">#40BDBDBD</color>
+    <color name="black_7">#43000000</color>
+    <color name="black_8">#333333</color>
+
+    <color name="white_1">#ffffffff</color>
+
+    <color name="cyan_normal">#329BFF</color>
+    <color name="cyan_click">#0078E2</color>
+    <color name="cyan_disable">#C1E1FF</color>
+    <color name="register_titlebar_color">#472efe</color>
+
+    <color name="blue_normal">#66ccff</color>
+    <color name="blue_click">#52b8eb</color>
+    <color name="blue_disable">@color/main_color_disable</color>
+
+    <color name="purple_normal">#8089c1</color>
+    <color name="purple_click">#6c75ad</color>
+    <color name="purple_disable">#8089c1</color>
+
+    <color name="red_normal">#FB474F</color>
+    <color name="red_H5">#FF3D00</color>
+    <color name="red_click">#E45635</color>
+    <color name="red_disable">#DBD6CD</color>
+
+    <color name="yellow_normal">#FF944A</color>
+    <color name="yellow_70_normal">#FBFF944A</color>
+    <color name="yellow_click">#dfbd4d</color>
+    <color name="yellow_jinfu_main">#B19445</color>
+    <color name="yellow_disable">#f9e7a9</color>
+
+    <color name="main_color_transparent2">#30329BFF</color>
+    <color name="main_color_transparent">#80329BFF</color>
+    <color name="main_color_normal">#0B8AEE</color>
+    <color name="main_color_click">#2185F7</color>
+    <color name="main_color_disable">#A9D5FF</color>
+    <color name="progress_color">#3FBEFF</color>
+    <color name="prod_status_color">#399EFF</color>
+    <color name="transparent_click">#19000000</color>
+    <color name="divider">#F0F0F0</color>
+    <color name="login_color">#666666</color>
+    <color name="shape_gray_rect">#D7D7D7</color>
+    <color name="price_color">#EB8D63</color>
+    <color name="divider_dark">#F0F0F0</color>
+    <color name="bg_layout">#F0F0F0</color>
+    <color name="jinfu_prod_time_color">#FFA100</color>
+
+    <color name="pb_bg">#F7F7F7</color>
+    <color name="pb_fisrt">#FFAE3D</color>
+    <color name="pb_second">#FF7469</color>
+    <color name="image_upload_pb_bg">#54729DB2</color>
+    <color name="recheck">#ffFF944B</color>
+    <color name="find_toulian">#FF706A</color>
+    <color name="find_chuangye">#63DBFE</color>
+    <color name="find_fuhua">#E080E2</color>
+</resources>

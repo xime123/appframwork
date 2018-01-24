@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/dialog_view"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:gravity="center"
+              android:minHeight="80dp"
+              android:minWidth="300dp"
+
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="80dp"
+        android:minWidth="300dp"
+        android:paddingTop="@dimen/gap_mediumer"
+        android:paddingBottom="@dimen/gap_large"
+        android:paddingRight="@dimen/gap_large"
+        android:background="@drawable/bg_card_normal"
+        android:orientation="vertical">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/complete"
+            android:layout_marginLeft="@dimen/gap_medium"
+            />
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av_loading_view"
+                android:visibility="gone"
+                android:layout_marginLeft="@dimen/gap_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                app:indicator="BallSpinFadeLoader"
+                app:indicator_color="@color/main_color_normal"
+                />
+        <TextView
+            android:id="@+id/tipTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/gap_smaller"
+            android:layout_marginRight="@dimen/gap_medium"
+            android:text="发送成功!"
+            style="@style/STextAppearance.Large.Black1" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/toast_des_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone"
+        android:layout_marginLeft="@dimen/gap_edit_text_error"
+        android:singleLine="true"
+        android:text="发送成功!"
+        style="@style/STextAppearance.Small.Black3" />
+    </LinearLayout>
+</LinearLayout>

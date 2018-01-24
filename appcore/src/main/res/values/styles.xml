@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--loading-->
+    <style name="style_loading_dialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowBackground">@drawable/loading_bg</item>-->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <!--标题栏-->
+    <declare-styleable name="CommonActionBar">
+        <attr name="showBack" format="boolean" />
+        <attr name="showMenu1" format="boolean" />
+        <attr name="showMenu2" format="boolean" />
+        <attr name="backSrc" format="reference" />
+        <attr name="menu1Src" format="reference" />
+        <attr name="menu2Src" format="reference" />
+        <attr name="titleText" format="string" />
+    </declare-styleable>
+
+    <!--toast-->
+    <style name="DialogTranslucentNoTitle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+    </style>
+</resources>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <dimen name="s_text_size_micro">12sp</dimen>
+    <dimen name="s_text_size_small">14sp</dimen>
+    <dimen name="s_text_size_medium">16sp</dimen>
+    <dimen name="s_text_size_large">18sp</dimen>
+    <dimen name="s_text_size_super_large">24sp</dimen>
+
+    <color name="s_text_color_black_1">@color/black_1</color>
+    <color name="s_text_color_black_2">@color/black_2</color>
+    <color name="s_text_color_black_3">@color/black_3</color>
+    <color name="s_text_color_black_4">@color/black_4</color>
+    <color name="s_text_color_black_5">@color/black_5</color>
+    <color name="s_text_color_white_1">#ffffffff</color>
+
+    <color name="s_text_color_red_1">#f63</color>
+    <!--<color name="s_text_color_red_light">#ef5e6f</color>-->
+    <color name="s_text_color_yellow_1">@color/yellow_normal</color>
+    <color name="s_text_color_cyan_1">#33cccc</color>
+    <color name="s_text_color_blue">@color/main_color_normal</color>
+    <color name="s_text_color_blue1">#759CDE</color>
+    <!--<color name="s_text_color_yellow_light">#f7c249</color>-->
+    <!--<color name="s_text_color_blue">#32c563</color>-->
+    <!--<color name="s_text_color_blue_light">#26ac53</color>-->
+    <!--<color name="s_text_color_green">#23C56F</color>-->
+    <!--<color name="s_text_color_green_light">#1aa85c</color>-->
+
+    <style name="STextAppearance"></style>
+
+    <style name="STextAppearance.Micro">
+        <item name="android:textSize">@dimen/s_text_size_micro</item>
+    </style>
+
+    <style name="STextAppearance.Small">
+        <item name="android:textSize">@dimen/s_text_size_small</item>
+    </style>
+
+    <style name="STextAppearance.Medium">
+        <item name="android:textSize">@dimen/s_text_size_medium</item>
+    </style>
+
+    <style name="STextAppearance.Large">
+        <item name="android:textSize">@dimen/s_text_size_large</item>
+    </style>
+
+    <!-- ———————————————————— 黑色字体style ———————————————————— -->
+
+    <style name="STextAppearance.Micro.Black1">
+        <item name="android:textColor">@color/s_text_color_black_1</item>
+    </style>
+
+    <style name="STextAppearance.Small.Black1">
+        <item name="android:textColor">@color/s_text_color_black_1</item>
+    </style>
+
+    <style name="STextAppearance.Medium.Black1">
+        <item name="android:textColor">@color/s_text_color_black_1</item>
+    </style>
+
+    <style name="STextAppearance.Large.Black1">
+        <item name="android:textColor">@color/s_text_color_black_1</item>
+    </style>
+
+    <style name="STextAppearance.Micro.Black2">
+        <item name="android:textColor">@color/s_text_color_black_2</item>
+    </style>
+
+    <style name="STextAppearance.Small.Black2">
+        <item name="android:textColor">@color/s_text_color_black_2</item>
+    </style>
+
+    <style name="STextAppearance.Medium.Black2">
+        <item name="android:textColor">@color/s_text_color_black_2</item>
+    </style>
+
+    <style name="STextAppearance.Large.Black2">
+        <item name="android:textColor">@color/s_text_color_black_2</item>
+    </style>
+
+    <style name="STextAppearance.Micro.Black3">
+        <item name="android:textColor">@color/s_text_color_black_3</item>
+    </style>
+
+    <style name="STextAppearance.Small.Black3">
+        <item name="android:textColor">@color/s_text_color_black_3</item>
+    </style>
+
+    <style name="STextAppearance.Medium.Black3">
+        <item name="android:textColor">@color/s_text_color_black_3</item>
+    </style>
+
+    <style name="STextAppearance.Large.Black3">
+        <item name="android:textColor">@color/s_text_color_black_3</item>
+    </style>
+
+    <style name="STextAppearance.Micro.Black4">
+        <item name="android:textColor">@color/s_text_color_black_4</item>
+    </style>
+
+    <style name="STextAppearance.Small.Black4">
+        <item name="android:textColor">@color/s_text_color_black_4</item>
+    </style>
+
+    <style name="STextAppearance.Medium.Black4">
+        <item name="android:textColor">@color/s_text_color_black_4</item>
+    </style>
+
+    <style name="STextAppearance.Large.Black4">
+        <item name="android:textColor">@color/s_text_color_black_4</item>
+    </style>
+
+    <style name="STextAppearance.Micro.Black5">
+        <item name="android:textColor">@color/s_text_color_black_5</item>
+    </style>
+
+    <style name="STextAppearance.Small.Black5">
+        <item name="android:textColor">@color/s_text_color_black_5</item>
+    </style>
+
+    <style name="STextAppearance.Medium.Black5">
+        <item name="android:textColor">@color/s_text_color_black_5</item>
+    </style>
+
+    <style name="STextAppearance.Large.Black5">
+        <item name="android:textColor">@color/s_text_color_black_5</item>
+    </style>
+
+    <style name="STextAppearance.Micro.Black1Selector">
+        <item name="android:textColor">@color/s_text_color_black_1_selector</item>
+    </style>
+
+    <style name="STextAppearance.Small.Black1Selector">
+        <item name="android:textColor">@color/s_text_color_black_1_selector</item>
+    </style>
+
+    <style name="STextAppearance.Medium.Black1Selector">
+        <item name="android:textColor">@color/s_text_color_black_1_selector</item>
+    </style>
+
+    <style name="STextAppearance.Large.Black1Selector">
+        <item name="android:textColor">@color/s_text_color_black_1_selector</item>
+    </style>
+
+    <style name="STextAppearance.Micro.Black2Selector">
+        <item name="android:textColor">@color/s_text_color_black_2_selector</item>
+    </style>
+
+    <style name="STextAppearance.Small.Black2Selector">
+        <item name="android:textColor">@color/s_text_color_black_2_selector</item>
+    </style>
+
+    <style name="STextAppearance.Medium.Black2Selector">
+        <item name="android:textColor">@color/s_text_color_black_2_selector</item>
+    </style>
+
+    <style name="STextAppearance.Large.Black2Selector">
+        <item name="android:textColor">@color/s_text_color_black_2_selector</item>
+    </style>
+
+    <style name="STextAppearance.Micro.Black3Selector">
+        <item name="android:textColor">@color/s_text_color_black_3_selector</item>
+    </style>
+
+    <style name="STextAppearance.Small.Black3Selector">
+        <item name="android:textColor">@color/s_text_color_black_3_selector</item>
+    </style>
+
+    <style name="STextAppearance.Medium.Black3Selector">
+        <item name="android:textColor">@color/s_text_color_black_3_selector</item>
+    </style>
+
+    <style name="STextAppearance.Large.Black3Selector">
+        <item name="android:textColor">@color/s_text_color_black_3_selector</item>
+    </style>
+
+    <style name="STextAppearance.Micro.Black4Selector">
+        <item name="android:textColor">@color/s_text_color_black_4_selector</item>
+    </style>
+
+    <style name="STextAppearance.Small.Black4Selector">
+        <item name="android:textColor">@color/s_text_color_black_4_selector</item>
+    </style>
+
+    <style name="STextAppearance.Medium.Black4Selector">
+        <item name="android:textColor">@color/s_text_color_black_4_selector</item>
+    </style>
+
+    <style name="STextAppearance.Large.Black4Selector">
+        <item name="android:textColor">@color/s_text_color_black_4_selector</item>
+    </style>
+
+    <style name="STextAppearance.Micro.Black5Selector">
+        <item name="android:textColor">@color/s_text_color_black_5_selector</item>
+    </style>
+
+    <style name="STextAppearance.Small.Black5Selector">
+        <item name="android:textColor">@color/s_text_color_black_5_selector</item>
+    </style>
+
+    <style name="STextAppearance.Medium.Black5Selector">
+        <item name="android:textColor">@color/s_text_color_black_5_selector</item>
+    </style>
+
+    <style name="STextAppearance.Large.Black5Selector">
+        <item name="android:textColor">@color/s_text_color_black_5_selector</item>
+    </style>
+
+    <!-- ———————————————————— 白色字体style ———————————————————— -->
+    <style name="STextAppearance.Micro.White1">
+        <item name="android:textColor">@color/s_text_color_white_1</item>
+    </style>
+
+    <style name="STextAppearance.Small.White1">
+        <item name="android:textColor">@color/s_text_color_white_1</item>
+    </style>
+
+    <style name="STextAppearance.Medium.White1">
+        <item name="android:textColor">@color/s_text_color_white_1</item>
+    </style>
+
+    <style name="STextAppearance.Large.White1">
+        <item name="android:textColor">@color/s_text_color_white_1</item>
+    </style>
+
+    <!-- ———————————————————— 红色字体style ———————————————————— -->
+    <style name="STextAppearance.Micro.Red1">
+        <item name="android:textColor">@color/s_text_color_red_1</item>
+    </style>
+
+    <style name="STextAppearance.Small.Red1">
+        <item name="android:textColor">@color/s_text_color_red_1</item>
+    </style>
+
+    <style name="STextAppearance.Medium.Red1">
+        <item name="android:textColor">@color/s_text_color_red_1</item>
+    </style>
+
+    <style name="STextAppearance.Large.Red1">
+        <item name="android:textColor">@color/s_text_color_red_1</item>
+    </style>
+
+    <!-- ———————————————————— 黄色字体style ———————————————————— -->
+    <style name="STextAppearance.Micro.Yellow1">
+        <item name="android:textColor">@color/s_text_color_yellow_1</item>
+    </style>
+
+    <style name="STextAppearance.Small.Yellow1">
+        <item name="android:textColor">@color/s_text_color_yellow_1</item>
+    </style>
+
+    <style name="STextAppearance.Medium.Yellow1">
+        <item name="android:textColor">@color/s_text_color_yellow_1</item>
+    </style>
+
+    <style name="STextAppearance.Large.Yellow1">
+        <item name="android:textColor">@color/s_text_color_yellow_1</item>
+    </style>
+    <!-- ———————————————————— 青色字体style ———————————————————— -->
+    <style name="STextAppearance.Micro.Cyan1">
+        <item name="android:textColor">@color/s_text_color_cyan_1</item>
+    </style>
+
+    <style name="STextAppearance.Small.Cyan1">
+        <item name="android:textColor">@color/s_text_color_cyan_1</item>
+    </style>
+
+    <style name="STextAppearance.Medium.Cyan1">
+        <item name="android:textColor">@color/s_text_color_cyan_1</item>
+    </style>
+
+    <style name="STextAppearance.Large.Cyan1">
+        <item name="android:textColor">@color/s_text_color_cyan_1</item>
+    </style>
+    <!-- ———————————————————— 蓝色字体style ———————————————————— -->
+
+
+    <style name="STextAppearance.Micro.blue">
+        <item name="android:textColor">@color/s_text_color_blue</item>
+    </style>
+
+    <style name="STextAppearance.Small.blue">
+        <item name="android:textColor">@color/s_text_color_blue</item>
+    </style>
+
+    <style name="STextAppearance.Medium.blue">
+        <item name="android:textColor">@color/s_text_color_blue</item>
+    </style>
+
+    <style name="STextAppearance.Large.blue">
+        <item name="android:textColor">@color/s_text_color_blue</item>
+    </style>
+
+    <style name="STextAppearance.Micro.Indigo">
+        <item name="android:textColor">@color/main_color_normal</item>
+    </style>
+
+    <style name="STextAppearance.Small.Indigo">
+        <item name="android:textColor">@color/main_color_normal</item>
+    </style>
+
+    <style name="STextAppearance.Medium.Indigo">
+        <item name="android:textColor">@color/main_color_normal</item>
+    </style>
+
+    <style name="STextAppearance.Large.Indigo">
+        <item name="android:textColor">@color/main_color_normal</item>
+    </style>
+
+</resources>
