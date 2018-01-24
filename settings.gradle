@@ -1,1 +1,1 @@
-include ':app', ':appcore', ':xrecyclerview', ':recycleviewadapterlib', ':util', ':webApp', ':qrcodelib', ':uilib'
+include ':app', ':appcore', ':xrecyclerview', ':recycleviewadapterlib', ':util', ':webApp', ':qrcodelib'
